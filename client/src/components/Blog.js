@@ -8,7 +8,7 @@ class Blog extends Component {
       result: null,
       feed: "",
       value:
-        "https://www.mechanized-aesthetics.net/TEST/portfolioTest/mechanized-aesthetics-news.php"
+        "XXXXXXXXXXXXXX/mechanized-aesthetics-news.php"
     };
     this.getRssFeed = this.getRssFeed.bind(this);
   }
