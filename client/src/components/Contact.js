@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Contact extends Component {
   render() {
+    const url = window.location.href;
     return (
       <React.Fragment>
         <div className="container App">
@@ -9,11 +10,12 @@ class Contact extends Component {
             <div className="col-md-12 animated fadeInUp">
               <form
                 method="POST"
-                action="https://www.mechanized-aesthetics.net/TEST/portfolioTest/EmailRelay.php"
+                action="XXXXXXXXXXXXXX/EmailRelay.php"
               >
                 <div className="form-group block">
                   <ul>
                     <li>
+                      <input type="hidden" name="url" value={url} />
                       <input
                         type="text"
                         className="form-control"
