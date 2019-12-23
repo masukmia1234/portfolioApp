@@ -1,4 +1,3 @@
 # portfolioApp
-React.js, Node.js, MongoDB
+React.js, Node.js, MongoDB: https://youtu.be/YZpmW3iQ83U
 
-View demo video: https://youtu.be/ZUDEC2L7esk
